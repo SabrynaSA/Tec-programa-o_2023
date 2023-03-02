@@ -1,0 +1,37 @@
+//Iniciar um controle de versão
+  git init
+
+//Verificar alteração/modificações
+  git status
+
+//Adicionar arquivo a próxima versão
+  git add nomedoarquivo.extensaodoarquivo
+
+//Gerar proxima versão
+  git commit -m "arquivo"
+
+//Adicionar todos os arquivos a proxima versão
+  git add .
+
+//Adicionar nome de usuario
+  git config --global user.name "nomedeusuario"
+
+//Adicionar email
+  git config --global user.email "email"
+
+Obs:
+
+//Listar todos os commit
+  git log
+
+//Vincular com repositorio remoto
+  git remoto + endereço (esse comando o proprio git fornece)
+
+//Subir para o repositorio remoto
+  git push -i origun main 
+
+// Verificar versão do git
+   git pull
+ 
+//Clonar repositorio 
+  git c
